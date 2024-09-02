@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,800;1,300;1,700&family=Oswald&family=Poppins:ital,wght@1,500;1,700&family=Source+Code+Pro&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Source Code Pro', monospace; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sideBar {
+    background-color: rgb(214, 212, 212);
+    width: 200px;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.2s ease-in;
+}
+
+.sideBar nav {
+    padding: 35px;
+}
+
+.sideBar nav li {
+    list-style: none;
+    padding: 16px 0px;
+}
+
+.sideBar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 16px;
+}
+
+#container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: green; */
+    height: 50vh;
+    width: 80vw;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about {
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.moreAbout {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 25px;
+}
+
+.button button {
+    margin: 0px 8px;
+    padding: 7px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(21, 128, 190);
+    font-weight: bold;
+    cursor: pointer
+}
+
+.button button:hover {
+    color: rgb(21, 128, 190);
+    background-color: white;
+}
+
+.hamBurger {
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 10px;
+}
+
+.cross {
+    margin: 0px 148px;
+}
+
+.sideBarGo {
+    transform: translate(-250px, 0px);
+    position: absolute;
+}
+
+.devPic img {
+    height: 50vh;
+}
+
+.btn1 {
+    margin-top: 25px;
+}
+
+.btn1 {
+    margin: 0px 8px;
+    margin-top: 10px;
+    padding: 5px 28px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(21, 128, 190);
+    font-weight: bold;
+    cursor: pointer
+}
+
+.btn1:hover {
+    color: rgb(21, 128, 190);
+    background-color: white;
+}
+
+.intro {
+    padding-left: 50px;
+    /* background-color: silver; */
+    height: 600px;
+}
+
+.about1 {
+    padding: 10px;
+}
+
+.about1 p {
+    padding-top: 10px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    /* color: red; */
+}
+
+.skill {
+    padding: 10px;
+}
+
+.skill h4 {
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    /* color: rgb(0, 141, 122); */
+}
+
+.contactForm {
+    font-family: 'Source Code Pro', monospace;
+    padding: 0px 100px;
+    padding-top: 55px;
+}
+
+.contactForm h1 {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 0px;
+}
+
+.mb-3 {
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.form-text {
+    font-size: 11px;
+    margin-top: 5px;
+    color: rgb(0, 109, 211);
+}
+
+.form-control {
+    height: 27px;
+    width: 340px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-inline: 5px;
+}
+
+.blogContainer h1 {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.blogItems {
+    margin: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blogItems p {
+    font-size: 14px;
+}
+
+@media(max-width:1325px) {
+    /* * {
+        background-color: aqua;
+    } */
+
+    .devPic {
+        display: none;
+    }
+
+    /* .sideBar {
+        transform: translate(-250px, 0px);
+        position: absolute;
+    }*/
+}

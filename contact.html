@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>My First Portfolio</title>
+    <link rel="stylesheet" href="myPortfolio.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="sideBar">
+            <nav>
+                <ul>
+                    <li><a href="myPortfolio.html">Home</a></li>
+                    <li><a href="intro.html">My Intr</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamBurger">
+                <img src="ham.png" alt="ham" class="ham" width="23px">
+                <img src="cross.png" alt="cross" class="cross" width="23px">
+            </div>
+            <div class="contactForm">
+                <h1>Contact me for work/general enquiry</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label><br>
+                        <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientEmail1" class="form-label">Email address</label><br>
+                        <input type="email" class="form-control" id="clientEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientPhone" class="form-label">Phone</label><br>
+                        <input type="Phone" class="form-control" id="clientPhone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Enquiry" class="form-label">Enquiry</label><br>
+                        <input type="Phone" class="form-control" id="Enquiry">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="isClient">
+                        <label class="form-check-label" for="isClient">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="btn1">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="myPortfolio.js"></script>
+</body>
+
+</html>
